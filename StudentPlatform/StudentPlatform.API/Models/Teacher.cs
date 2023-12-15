@@ -1,8 +1,18 @@
-namespace StudentPlatform.API.Models;
-
-public class Teacher(string name, int id)
+namespace StudentPlatform.API.Models 
 {
-    public int Id { get; set; } = id;
-    public string Name { get; set; } = name;
-    public ICollection<Course> Courses {get; set;} = new List<Course>();
+    public class Teacher
+    {
+        public int Id { get; set;}
+        public string Name { get; set;}
+
+        // ICollection<Course> means that one teacher can 
+        // have multiple courses attached to them
+        public ICollection<Course> Courses {get; set;} = new List<Course>();
+
+        public Teacher(string name)
+        {
+            Name = name;
+        }
+
+    }
 }

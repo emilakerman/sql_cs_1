@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XS1Kg3el6qvZVmVRUk9FPG/eAwQSFTIVSzdhLOKAteKgVytNi79ViRiSCuKYtBSejh0qIU1AdiAXbpuFSmRdIw==",
+  "dgSpecHash": "fxVUMBAISwl2EP5p2a3fzd8GfeNpTpOY5gDZiEZOAX1dYLBMmykIn3T0msZjmuQyp2Qjf4kukZc/3WFueB/2Mw==",
   "success": true,
-  "projectFilePath": "/Users/emil/Documents/csharpprojs/sql_cs_1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
+  "projectFilePath": "/Users/emil/Documents/csharpprojs/jens1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
   "expectedPackageFiles": [
     "/Users/emil/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/emil/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

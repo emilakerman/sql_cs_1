@@ -4470,11 +4470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emil/Documents/csharpprojs/sql_cs_1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
+      "projectUniqueName": "/Users/emil/Documents/csharpprojs/jens1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
       "projectName": "StudentPlatform",
-      "projectPath": "/Users/emil/Documents/csharpprojs/sql_cs_1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
+      "projectPath": "/Users/emil/Documents/csharpprojs/jens1/StudentPlatform/StudentPlatform.API/StudentPlatform.csproj",
       "packagesPath": "/Users/emil/.nuget/packages/",
-      "outputPath": "/Users/emil/Documents/csharpprojs/sql_cs_1/StudentPlatform/StudentPlatform.API/obj/",
+      "outputPath": "/Users/emil/Documents/csharpprojs/jens1/StudentPlatform/StudentPlatform.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emil/.nuget/NuGet/NuGet.Config"

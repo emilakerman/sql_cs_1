@@ -10,10 +10,26 @@ namespace StudentPlatform.API.Data
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Course> Courses { get; set; }
 
-        public Context(DbContextOptions<Context> options) : base(options)
-        {
-        }
+        public string DbPath {get;}
 
+
+           public Context(DbContextOptions<Context> options) : base(options) {
+            var folder = Environment.SpecialFolder.LocalApplicationData;
+            var path = Environment.GetFolderPath(folder);
+            DbPath = Path.Combine(path, "studentplatform.db");
+        } 
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+            var connectionString = configuration.GetConnectionString("StudentPlatformConnection");
+            optionsBuilder.UseSqlServer(connectionString);
+        }
+    }
         public Context() : base()
         {
 
